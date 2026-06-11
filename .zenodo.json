@@ -1,0 +1,14 @@
+{
+  "title": "Code for: Investigating Light-Induced Phase Separation in MAPbBr1.8I1.2",
+  "description": "Monte Carlo simulation and time-resolved XRD analysis code accompanying the manuscript.",
+  "creators": [
+    {
+      "name": "Schwartzkopff, Sebastian",
+      "affiliation": "Eberhard Karls Universität Tübingen",
+      "orcid": "0009-0006-7957-4016"
+    }
+  ],
+  "license": "mit",
+  "keywords": ["perovskite", "halide segregation", "Monte Carlo", "XRD", "phase separation"],
+  "upload_type": "software"
+}
