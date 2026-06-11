@@ -1,0 +1,23 @@
+# Tested with Python 3.10 / 3.11 / 3.12
+# Lower bounds are conservative; the upper bounds reflect the versions
+# the simulation has been verified against. Relaxing them is likely safe.
+
+# Core numerics
+numpy>=1.24,<2.3
+scipy>=1.10
+numba>=0.58           # objmode + njit, RNG behaviour fixed
+h5py>=3.8
+
+# Optional but recommended speedup (~3x on concentration_to_qt)
+fast_histogram>=0.12
+
+# Plotting (mc.viz)
+matplotlib>=3.7
+
+# Optional: polished inline progress bar.  Falls back to a built-in ASCII bar
+# if not installed.  `tqdm.auto` picks the notebook backend automatically.
+tqdm>=4.65
+
+# Notebook only: interactive matplotlib backend used by `%matplotlib widget`
+# in example.ipynb.  Not needed for the mc package itself.
+ipympl>=0.9

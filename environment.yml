@@ -1,0 +1,19 @@
+# Conda environment for the MC phase-separation paper companion code.
+# Create with:   conda env create -f environment.yml
+# Activate with: conda activate mc-sim
+name: mc-sim
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10,<3.13
+  - numpy>=1.24,<2.3
+  - scipy>=1.10
+  - numba>=0.58
+  - h5py>=3.8
+  - matplotlib>=3.7
+  - tqdm>=4.65
+  - ipywidgets>=8.0      # tqdm.notebook's widget backend
+  - ipympl>=0.9          # `%matplotlib widget` backend used by example.ipynb
+  - pip
+  - pip:
+      - fast_histogram>=0.12
